@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-primary: #D15FBF;
+	--color-bg: #FEF1FA;
+}
+
+@utility body {
+	@apply  h-[100dvh] w-full overflow-x-hidden overflow-y-scroll bg-bg scroll-smooth snap-mandatory;
+}
+
+@utility main {
+	@apply p-2 w-full flex items-center justify-center snap-start; 
+}
+
+@utility divider {
+	@apply h-[200px] w-full my-2 ;
+}
+
+@layer card {
+	.container {
+		@apply w-sm   rounded-lg   ;
+		@apply lg:w-3xl ;
+	}
+
+	.container h1 {
+		@apply text-xl text-primary uppercase flex gap-2 items-center; 
+		@apply lg:text-3xl ;
+	}
+
+	.container h4{
+		@apply text-lg text-justify text-black/60;
+		@apply lg:text-xl lg:text-center;
+	}
+
+	.container .button {
+		@apply bg-primary cursor-pointer p-5 rounded-md text-white text-xl mt-auto italic hover:bg-primary/80;
+	}
+
+	.container .date{
+		@apply  gap-3 flex flex-col items-center justify-center w-full my-10 lg:my-30 cursor-default hover:text-black;
+	}
+}
+
+
+

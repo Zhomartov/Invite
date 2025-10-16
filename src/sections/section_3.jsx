@@ -35,7 +35,7 @@ const Section_3 = () => {
 		animate='animate'
 		whileInView='animate'
 		className='container p-5 flex items-center justify-start flex-col gap-5'>
-			<motion.h1 key='section_3_h1' variants={child_variant}>{t('section_3_card_h1')}</motion.h1>
+			<motion.h1 key='section_3_h1' className='font-main !text-5xl' variants={child_variant}>{t('section_3_card_h1')}</motion.h1>
 			<motion.h4 key='section_3_h4' variants={child_variant}>
 				{t('section_3_card_h4')}
 			</motion.h4>
@@ -79,7 +79,7 @@ const Section_3 = () => {
 		key='section_3_card' 
 		onClick={handleMap} 
 		variants={child_variant} 
-		className='w-full h-[400px] bg-[url(/public/table.jpg)] bg-center overflow-hidden bg-no-repeat bg-cover rounded-lg p-2 relative cursor-pointer group'>
+		className='w-full h-[400px] bg-[url(/table.jpg)] bg-center overflow-hidden bg-no-repeat bg-cover rounded-lg p-2 relative cursor-pointer group'>
 		
 		<span className='w-full h-full bg-black/30 absolute top-0 left-0'></span>
 		<h2 className ='absolute top-0 left-0 p-1 text-3xl lg:text-5xl font-bold text-white/70 group-hover:text-white'>{t('section_3_place_title')}</h2>

@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import 'tailwindcss';
 
 @theme {
-	--color-primary: #D15FBF;
-	--color-bg: #FEF1FA;
+	--color-primary: #9B5DE0;
+	--color-bg: #FDCFFA;
+
+	--font-main : "Lobster", sans-serif;
+
 }
 
 @utility body {

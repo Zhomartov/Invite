@@ -28,7 +28,7 @@ const Logo = () => {
 		exit="exit"
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 24 24"
-		stroke="#D15FBF"
+		stroke="#8B0000"
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
